@@ -2,9 +2,9 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     font-family: sans-serif !important;
 }
 
-p, ul, li {
+p, ul{
     color: #555753 !important;
-    font-size: 170% !important;
+    font-size: 24px !important;
 }
 
 header h1, header h2, header h3, header h4, header h5, header h6 {
@@ -192,7 +192,8 @@ pre {
 
 li {
   padding: 10px 0;
-  font-size: 20px;
+  margin: 0 10px;
+  font-size: 24px;
 }
 
 .slide header:only-child h1 {

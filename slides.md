@@ -40,6 +40,9 @@
 # Baby steps
 
 - Passos de bebê
+- O desenvolvimento é feito de pequenos incrementos no código
+- Cada novo teste cobre o mínimo incremento de funcionalidade possível
+- O código muda o mínimo possível para fazer o teste passar
 
 ---
 
@@ -54,6 +57,7 @@
 # Refatoração
 
 - Eliminar código duplicado ou sem uso
+- É uma opção quando os testes estão passando
 
 --- 
 
@@ -101,7 +105,7 @@
 # Randori kata
 
 - Um piloto e um co-piloto vêm da plateia
-- Após um determinado período de tempo (7-8 min.)
+- Após um determinado período de tempo (5-7 min.)
 	- Piloto volta para a plateia
 	- Co-piloto assume o lugar do piloto
 	- Novo co-piloto vem da plateia
@@ -109,3 +113,10 @@
 - Plateia só se manifesta no _sinal verde_ (testes passando)
 
 ---
+
+# Vamos lá?
+
+[Sugestões de Problemas](problemas.html)
+
+
+
