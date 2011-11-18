@@ -114,6 +114,15 @@
 
 ---
 
+# Após encerrar
+
+- Retrospectiva
+	- Todos apontam pontos positivos e negativos da sessão
+- Pós-dojo
+	- Participantes se reúnem para bater papo
+
+---
+
 # Vamos lá?
 
 [Sugestões de Problemas](problemas.html)
