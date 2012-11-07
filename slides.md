@@ -65,7 +65,7 @@
 
 - Adicionar um teste
 - Executar testes que falham
-- Fazer uma pequena mudanças
+- Fazer uma pequena mudança
 - Executar testes que passam
 - Refatorar para remover duplicações
 
