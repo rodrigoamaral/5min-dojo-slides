@@ -121,11 +121,7 @@
 - Pós-dojo
 	- Participantes se reúnem para bater papo
 
----
 
-# Vamos lá?
-
-[Sugestões de Problemas](problemas.html)
 
 
 

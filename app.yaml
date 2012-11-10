@@ -1,0 +1,35 @@
+application: 5min-dojo-slides
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /theme/css
+  static_dir: theme/css
+
+- url: /theme/js
+  static_dir: theme/js
+
+- url: /img
+  static_dir: img
+
+- url: /.*
+  script: 5min-dojo-slides.app
+
+libraries:
+- name: jinja2
+  version: latest
+
+skip_files:
+- ^(.*/)?app\.yaml
+- ^(.*/)?app\.yml
+- ^(.*/)?index\.yaml
+- ^(.*/)?index\.yml
+- ^(.*/)?#.*#
+- ^(.*/)?.*~
+- ^(.*/)?.*\.py[co]
+- ^(.*/)?.*/RCS/.*
+- ^(.*/)?\..*
+- ^(.*/)?.*\.md$
+- ^(.*/)?requirements\.txt$
